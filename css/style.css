@@ -115,10 +115,27 @@ section {
 
 /* ? NUMBER SECTION */
 
+#number-section {
+  background-color: #9792e4;
+}
+
 #number-section .card {
   background-color: red;
   max-width: 100%;
   padding: 1rem;
+}
+
+/* ? ABOUT SECTION */
+
+#about-section .card {
+  max-width: 100%;
+  padding: 1rem;
+}
+
+/* ? FREE SECTION */
+
+#free-section {
+  background-color: #9792e4;
 }
 
 /*
