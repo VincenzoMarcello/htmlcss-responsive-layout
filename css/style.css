@@ -18,6 +18,7 @@
 
 .bordered {
   border: 2px dashed black;
+  min-height: 50px;
 }
 
 /*
@@ -58,8 +59,26 @@
   padding: 0 1rem;
 }
 
+/* ? INTRO */
+
+#intro .col {
+  background-color: aqua;
+  margin: 1rem 0;
+  padding: 1rem;
+}
+
 /*
 ! ****************
 !    RESPONSIVE  *
 ! ****************
 */
+
+/* ? TABLET */
+
+@media screen and (min-width: 768px) {
+  /* ? INTRO */
+
+  #intro .row {
+    display: flex;
+  }
+}
