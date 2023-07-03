@@ -170,6 +170,23 @@ section {
   #number-section .col {
     width: 50%;
   }
+
+  /* ? ABOUT SECTION */
+
+  #about-section .card {
+    padding: 1rem;
+  }
+
+  #about-section .row {
+    display: flex;
+  }
+
+  #about-section .col-left {
+    width: 60%;
+  }
+  #about-section .col-right {
+    width: 40%;
+  }
 }
 
 /* ? DESKTOP */
