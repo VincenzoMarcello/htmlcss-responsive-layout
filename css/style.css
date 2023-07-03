@@ -85,6 +85,12 @@ section {
   background-color: #9792e4;
 }
 
+#another-section .card {
+  background-color: red;
+  max-width: 100%;
+  text-align: center;
+}
+
 /*
 ! ****************
 !    RESPONSIVE  *
@@ -116,6 +122,8 @@ section {
   #intro .card > .card-section {
     width: 50%;
   }
+
+  /* ? ANOTHER SECTION */
 }
 
 /* ? DESKTOP */
@@ -123,5 +131,29 @@ section {
 @media screen and (min-width: 992px) {
   .container {
     max-width: 1140px;
+  }
+
+  /* ? ANOTHER SECTION */
+
+  #another-section .row {
+    display: flex;
+  }
+
+  #another-section .col {
+    width: 50%;
+  }
+
+  #another-section .col:last-child {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  #another-section .card {
+    border-radius: 5px;
+    max-width: 50%;
+  }
+
+  #another-section .card .box-content {
+    padding: 0 3rem;
   }
 }
