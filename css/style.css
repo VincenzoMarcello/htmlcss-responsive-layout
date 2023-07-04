@@ -20,6 +20,10 @@ a {
   list-style: none;
 }
 
+img {
+  width: 100%;
+}
+
 /*
 ! ****************
 !      UTILS     *
@@ -38,6 +42,17 @@ a {
   border-radius: 1rem;
 
   padding: 8px 12px;
+}
+
+.button-blue {
+  background-color: #0084fd;
+  border-radius: 1rem;
+  margin: 50px 0;
+  display: inline-block;
+
+  font-weight: 600;
+
+  padding: 8px 45px;
 }
 
 /*
@@ -64,16 +79,16 @@ a {
 .container {
   margin-left: auto;
   margin-right: auto;
-  padding: 0 1rem;
+  padding: 0 0.6rem;
 }
 
 .row {
-  margin-left: -1rem;
-  margin-right: -1rem;
+  margin-left: -0.6rem;
+  margin-right: -0.6rem;
 }
 
 .col {
-  padding: 1rem;
+  padding: 0.6rem;
 }
 
 /*
@@ -127,12 +142,40 @@ section {
 
 /* ? INTRO */
 
-#intro .card {
-  background-color: violet;
+#intro .card,
+.card-first {
+  background-color: #b5ddff;
+  border-radius: 1rem;
   width: 100%;
-  color: white;
   padding: 1rem;
   height: 100%;
+}
+
+#intro .card-first {
+  padding-bottom: 0;
+}
+
+#intro .icon-blue {
+  padding-top: 10px;
+  font-size: 5rem;
+  color: #0084fd;
+}
+
+#intro h3 {
+  color: #0084fd;
+  padding: 20px 0;
+}
+
+#intro p {
+  color: #5a6e7f;
+  font-weight: 600;
+  line-height: 25px;
+  font-size: 0.9rem;
+}
+
+#intro .img-card {
+  max-width: 100%;
+  display: block;
 }
 
 /* ? ANOTHER SECTION */
@@ -206,6 +249,10 @@ footer {
     flex-wrap: wrap;
   }
 
+  #intro .img-card {
+    max-width: 80%;
+  }
+
   #intro .col {
     width: calc(100% / 3);
   }
@@ -277,7 +324,12 @@ footer {
     max-width: 1140px;
   }
 
-  #intro .col:first-child .card {
+  #intro .img-card {
+    max-width: 100%;
+  }
+
+  #intro .col:first-child .card,
+  .card-first {
     display: flex;
   }
 
