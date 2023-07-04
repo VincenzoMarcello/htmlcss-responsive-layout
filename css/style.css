@@ -24,6 +24,14 @@ img {
   width: 100%;
 }
 
+p {
+  line-height: 25px;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
 /*
 ! ****************
 !      UTILS     *
@@ -169,7 +177,6 @@ section {
 #intro p {
   color: #5a6e7f;
   font-weight: 600;
-  line-height: 25px;
   font-size: 0.9rem;
 }
 
@@ -185,9 +192,37 @@ section {
 }
 
 #another-section .card {
-  background-color: red;
+  background-color: white;
+  border-radius: 2rem;
+  padding: 1rem;
   max-width: 100%;
   text-align: center;
+}
+
+#another-section h2 {
+  padding: 30px 0;
+  color: white;
+}
+
+#another-section h2 + p {
+  color: white;
+}
+
+#another-section .italic {
+  font-style: italic;
+}
+
+#another-section h3 {
+  padding: 20px 0;
+}
+
+#another-section .arrow {
+  display: inline-block;
+  width: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  background-color: #9792e4;
+  margin: 20px 0;
 }
 
 /* ? PARTNERS SECTION */
@@ -349,12 +384,23 @@ footer {
   }
 
   #another-section .card {
-    border-radius: 5px;
     max-width: 50%;
   }
 
   #another-section .card .box-content {
     padding: 0 3rem;
+  }
+
+  #another-section .card {
+    max-width: 70%;
+  }
+
+  #another-section .img-big {
+    max-width: 80%;
+  }
+
+  #another-section h2 {
+    padding: 5rem 0;
   }
 
   /* ? PARTNERS SECTION */
