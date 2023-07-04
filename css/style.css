@@ -274,7 +274,7 @@ footer {
 ! ****************
 */
 
-/* ? TABLET */
+/* ! TABLET */
 
 @media screen and (min-width: 576px) {
   /* ? INTRO */
@@ -340,7 +340,7 @@ footer {
   }
 }
 
-/* ? DESKTOP */
+/* ! DESKTOP */
 
 @media screen and (min-width: 992px) {
   /* ? HEADER */
@@ -369,6 +369,10 @@ footer {
   }
 
   /* ? ANOTHER SECTION */
+
+  #another-section .container {
+    max-width: 1000px;
+  }
 
   #another-section .row {
     display: flex;
