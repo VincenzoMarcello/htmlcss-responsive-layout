@@ -391,6 +391,24 @@ section {
 
 footer {
   background-color: #333333;
+  color: white;
+}
+
+footer p {
+  margin: 50px 0;
+}
+
+.footer-link {
+  text-decoration: underline;
+  color: #837fc1;
+}
+
+footer .card {
+  font-size: 0.9rem;
+}
+
+footer .card:last-child {
+  padding-bottom: 30px;
 }
 
 /*
@@ -491,6 +509,12 @@ footer {
   #free-section .tablet-limiter {
     width: 60%;
     margin: auto;
+  }
+
+  /* ? FOOTER */
+
+  footer .container {
+    max-width: 500px;
   }
 }
 
