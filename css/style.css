@@ -106,7 +106,7 @@ h2 {
 */
 
 section {
-  padding: 3rem 0;
+  padding: 5rem 0;
 }
 
 /*? HEADER */
@@ -232,9 +232,27 @@ section {
 }
 
 #partners-section .card {
-  background-color: red;
+  background-color: #9792e4;
+  color: white;
   max-width: 100%;
+  border-radius: 2rem;
   padding: 1rem;
+}
+
+#partners-section p {
+  font-size: 17px;
+  padding: 20px 0;
+}
+
+#partners-section h2 {
+  color: #9792e4;
+}
+
+#partners-section .img-card {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
 }
 
 /* ? NUMBER SECTION */
@@ -303,7 +321,7 @@ footer {
   /* ? ANOTHER SECTION */
   /* ? PARTNERS SECTION */
 
-  #partners-section .text-center {
+  #partners-section .card-section {
     text-align: start;
   }
 
