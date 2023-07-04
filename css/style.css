@@ -52,6 +52,17 @@ h2 {
   padding: 8px 12px;
 }
 
+.button-violet {
+  background-color: #9792e4;
+  border-radius: 1rem;
+  margin: 40px 0;
+  display: inline-block;
+
+  font-weight: 600;
+
+  padding: 8px 45px;
+}
+
 .button-blue {
   background-color: #0084fd;
   border-radius: 1rem;
@@ -257,13 +268,36 @@ section {
 
 /* ? NUMBER SECTION */
 
+#number-section h2 {
+  color: white;
+  padding-bottom: 50px;
+}
+
+#number-section .card h2 {
+  color: #9792e4;
+  font-size: 3rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#number-section .card h3 {
+  color: #9792e4;
+  font-size: 2rem;
+  padding-bottom: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#number-section p {
+  color: #929292;
+}
+
 #number-section {
   background-color: #9792e4;
 }
 
 #number-section .card {
-  background-color: red;
+  background-color: white;
   max-width: 100%;
+  border-radius: 1rem;
   padding: 1rem;
 }
 
